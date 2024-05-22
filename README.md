@@ -6,41 +6,39 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/prateektade/catppuccin-lxterminal/stargazers"><img src="https://img.shields.io/github/stars/prateektade/catppuccin-lxterminal?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/prateektade/catppuccin-lxterminal/issues"><img src="https://img.shields.io/github/issues/prateektade/catppuccin-lxterminal?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/prateektade/catppuccin-lxterminal/contributors"><img src="https://img.shields.io/github/contributors/prateektade/catppuccin-lxterminal?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/lxterminal/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/lxterminal?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/lxterminal/issues"><img src="https://img.shields.io/github/issues/catppuccin/lxterminal?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/lxterminal/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/lxterminal?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/prateektade/catppuccin-lxterminal/main/assets/Screenshot.webp"/>
+	<img src="assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/prateektade/catppuccin-lxterminal/main/assets/Latte.webp"/>
+<img src="assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/prateektade/catppuccin-lxterminal/main/assets/Frappe.webp"/>
+<img src="assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/prateektade/catppuccin-lxterminal/main/assets/Macchiato.webp"/>
+<img src="assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/prateektade/catppuccin-lxterminal/main/assets/Mocha.webp"/>
+<img src="assets/mocha.webp"/>
 </details>
 
 ## Usage
 
-1. Create a backup of your existing LXTerminal config file present at `~/.config/lxterminal/lxterminal.conf`.
-2. Browse to the `[general]` section in your active `lxterminal.conf` file and delete the lines corresponding to the color settings, starting from `bgcolor` to `color_preset`.
-3. Browse to the file for your choice of flavor (named as `Catppuccin-{flavor}.conf`) inside the `src` folder.
-4. Copy the contents of this file and paste them in your active `lxterminal.conf` file.
-5. Restart LXTerminal to apply the changes.
+1. Browse to the `[general]` section in your active `lxterminal.conf` file and delete the lines corresponding to the color settings, starting from `bgcolor` and ending with `color_preset`.
+2. Copy the contents of the flavor of your choice from [`themes/`](./themes/) and paste it inside your active `lxterminal.conf` file.
+3. Restart LXTerminal to apply the changes.
 
 ## 💝 Thanks to
 
