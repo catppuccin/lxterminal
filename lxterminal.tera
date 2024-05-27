@@ -1,0 +1,31 @@
+---
+whiskers:
+  version: "2.2.0"
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.conf"
+---
+bgcolor=#{{ base.hex }}
+fgcolor=#{{ text.hex }}
+palette_color_0=#{% if flavor.dark %}{{ surface1.hex }}{% else %}{{ subtext1.hex }}{% endif %}
+palette_color_1=#{{ red.hex }}
+palette_color_2=#{{ green.hex }}
+palette_color_3=#{{ yellow.hex }}
+palette_color_4=#{{ blue.hex }}
+palette_color_5=#{{ pink.hex }}
+palette_color_6=#{{ teal.hex }}
+{%- if flavor.dark %}
+palette_color_7=#{{ subtext1.hex }}
+palette_color_8=#{{ surface2.hex }}
+{%- else %}
+palette_color_7=#{{ surface2.hex }}
+palette_color_8=#{{ subtext0.hex }}
+{%- endif %}
+palette_color_9=#{{ red.hex }}
+palette_color_10=#{{ green.hex }}
+palette_color_11=#{{ yellow.hex }}
+palette_color_12=#{{ blue.hex }}
+palette_color_13=#{{ pink.hex }}
+palette_color_14=#{{ teal.hex }}
+palette_color_15=#{% if flavor.dark %}{{ subtext0.hex }}{% else %}{{ surface1.hex }}{% endif %}
+color_preset=Catppuccin-{{ flavor.name }}
